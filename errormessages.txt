@@ -1,0 +1,20 @@
+On Professor Portal:
+
+error=fileservererror - File with the same name on server
+error=notcsv - not a csv file
+error=servererror - other errors
+error=sqlerror - error with the database
+result=studentscreated - students added successfully
+result=courseadded - courses are created from csv
+result=groupcreated - group created
+
+On Index Page
+error=sqlerror - issue with the database
+
+Create Create Groups Page
+error=invalidteamname - bad team name
+error=invalidcourse - course is not selected
+error=sqlerror - Error with database
+
+On all Pages
+error=notloggedin - user is not logged in to access page

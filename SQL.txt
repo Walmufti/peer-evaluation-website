@@ -1,0 +1,21 @@
+I need SQL for:
+
+Professors:
+Scheduling peer evaluations
+    Scheduling the peer evaluation - insert
+    View all of the evaluations a specific professor has scheduled - select - from professor ID, course id, and term ID
+        Can have multiple of the same courses per term
+    Get criterion score and additional comments for a selected student by id and for a professor "CRN"
+
+Students:
+    Get and list all peer evaluations that are scheduled and available for courses the student is a part of, and that they haven't completed yet - select
+        student name/id input
+    Get list of completed evaluations?
+
+Administrator:
+    Admin to add courses
+    Admin to view all user accounts? Maybe COUNT number of accounts.
+    Admin can add term
+
+Template:
+INSERT INTO additional_comments (student_id, peerEval_id, student_receiving_id, additional_comments) VALUES (?,?,?,?)
