@@ -1,0 +1,40 @@
+.labels {
+    padding: 0px 30px;
+    border-radius: 100%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.labels input{
+    width: 35%;
+    border: 50%;
+}
+
+button {
+    background: #06206e;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: #daf17f;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 120%
+  }
+
+  h1 {
+      text-align: center;
+      color: #06206e;
+  }
+
+  .login {
+    margin-left: 22%;
+    width: 80%;
+  }
+
+  label {
+    color: 8a704c;
+  }
+
+.adminlog {
+  margin-left: 67%;
+  transform: translate(-67%);
+}
